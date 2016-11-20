@@ -1,0 +1,25 @@
+0.  BMP: 4 billion
+    GIF: 256
+    JPEG: 16 million
+    PNG: 16 million
+1.  GIF
+2.  Lossless retains all original data, lossy does not.
+3.  GIF, JPEG
+4.  The pointer to the file is deleted
+5.  Destroy the drive, or use sanitation tools to overwrite data
+6.  Provides typedefs that specify exact-width integer types
+7.  Allows specification of exact # of bits needed
+8.  BYTE:1
+    DWORD:4
+    LONG:4
+    WORD:2
+9.  0x4d42
+10. bfSize is size of file, biSize is size of image only
+11. Indicates a top-down DIB
+12. biBitCount
+13. If outfile was not created correctly
+14. The 1 specifies the stream read from, in our case a single element - a struct
+15. 3
+16. fseek moves to a specified location within file
+17. Let's fseek know it should start relative to current position indicator in file
+18. Some guy! Don't recognize him, but he's blue!
